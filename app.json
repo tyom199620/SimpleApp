@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "simplyTourIt",
+    "name": "SimplyTourIt",
     "slug": "simplyTourIt",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,9 +19,13 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "org.awisgroup.simplyTourIt",
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.awisgroup.simplyTourIt",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -29,6 +33,7 @@
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
-    }
+    },
+    "description": ""
   }
 }
